@@ -634,6 +634,7 @@ footer{
     }
     .contact_sp2{
         padding-left: 50px;
+        margin-top:20px;
     }
 
 
@@ -651,7 +652,7 @@ footer{
         margin: 10px;
     }
     #logo1{
-        width: 130px;
+        width: 150px;
         position: absolute;
         left: 50%;
     }
