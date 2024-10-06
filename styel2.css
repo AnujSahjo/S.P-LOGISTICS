@@ -1,0 +1,735 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    max-width: 100vw;
+    overflow-wrap: normal;
+    
+    
+    
+}
+html{
+    overflow-y: scroll;
+    
+}
+
+#bg1{
+    scale: 1.1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+#nav_toggle,#nav2{
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 20px;
+    
+}
+#name{
+    color: orangered;
+}
+
+.nav1{
+    
+    background: transparent;
+    border: 0px;
+    margin-right: 55px;
+    color: white;
+    transition: color 0.3s ease-out,
+    scale 0.5s ease-out;
+}
+.nav1:hover{
+    color: orangered;
+    scale: 1.1;
+
+}
+#pp1{
+    color: white;
+}
+
+.intro{
+   
+    height: 100vh;
+    width: 100vw;
+
+}
+#logo1{
+    width: 30vw;
+    border: 2px solid orangered;
+    border-radius: 50%;
+    position: absolute;
+    top: 25vh;
+    left: 10%;
+    transform: translate(-10%);
+
+}
+#sp_intro_details{
+    width: fit-content;
+    backdrop-filter: blur(5px);
+    
+    display: block;
+    position: absolute;
+    top: 40vh;
+    left: 60%;
+    transform: translate(-30%);
+    height: 25vh;
+    line-height: 30px;
+    
+
+}
+#sp_name{
+    font-size: 60px;
+    font-weight: 700;
+    color: orangered;
+
+}
+#sp_tagline{
+    font-size: 20px;
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+#contact h6 a{
+
+ text-decoration: none;
+ color: white;
+ font-size: 18px;
+}
+#head{
+    color: orangered;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    text-decoration: underline;
+
+}
+.about{
+    display: flex;
+    height: 100%;
+    background-color: hsla(0, 0%, 100%, 0.300);
+    backdrop-filter: blur(5px);
+
+}
+#about_gif{
+   width: 40%;
+   margin: 10%;
+   margin-right: 20px;
+   margin-left: 20px;
+   border-radius:10px;
+   box-shadow: -5px 7px 20px rgb(0, 0, 0);
+}
+#about_para{
+    color: black;
+    margin-top: 12%;
+    width: 500px;
+    margin-left: 60px;
+}
+.about_text{
+
+    color: orangered;
+    font-size: 20px;
+}
+#knowm{
+    color: orangered;
+    text-decoration: none;
+
+}
+#about_text{
+    margin:10px ;
+}
+
+.associates{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.300);
+    backdrop-filter:blur(10px);
+    height: 90vh;
+
+}
+#sfclogo1{
+    width: 30vw;
+    height: fit-content;
+    border: 2px solid orangered;
+    border-radius: 50%;
+    margin-top: 7%;
+    margin-left: 5%;
+    box-shadow: 5px 7px 20px black;
+
+}
+#sfc_details{
+    color: white;
+    padding: 15px;
+    padding-top: 8%;
+    width: 50vw;
+}
+#sfc_name{
+    color: orangered;
+    font-size: 35px;
+    
+    
+}
+#text1{
+    color: white;
+    font-size: 20px;
+    margin-top: -20px;
+}
+#contact_sfc{
+    font-size: 10px;
+    text-decoration: none;
+    color: orangered;
+    margin: 20px;
+    line-height: 30px;
+}
+#contact_sfc_phone,
+#contact_sfc_mail,
+#contact_sfc_location,
+#contact_sfc_web,
+#contact_sfc_fb,
+#contact_sfc_x{
+    color: orangered;
+    text-decoration: none;
+}
+
+.associates_2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.300);
+    backdrop-filter:blur(10px);
+#asso{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.300);
+ 
+    #asso_name{
+        color: orangered;
+        #t3{
+            color: white;
+            font-size: 15px;
+        }
+    }
+    .asso1{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 200;
+    }
+}
+}
+.service{
+    color: white;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  .serv_1{
+    display: flex;
+    
+  }
+  .serv_2{
+    display: flex;
+  }
+}
+.services_0{
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.service_head{
+  color: orangered;
+  margin: 10px;
+  text-align: center;
+}
+.service_1{
+    font-weight:300 ;
+}
+
+.pickup_request, .contact_form{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    .f-head-1{
+        color: orangered;
+        text-align: center;
+        margin: 5px;
+    }
+    
+}
+label{
+    color: white;
+
+    
+}
+.finput{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.398);
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.frequest{
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: background 0.3s ease-out;
+
+}
+.frequest:hover{
+    color: orangered;
+    background-color: transparent;
+    border-color: orangered;
+
+}
+
+.contact_us_head{
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+
+
+}
+footer{
+    background-color: black;
+    color: white;
+    height: fit-content;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+#right{
+    margin-top: 10px;
+    text-align: center;
+}
+#sp_intro_details2{
+
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    display: block;
+    height: 25vh;
+    line-height: 30px;
+    
+
+}
+#sp_name2{
+    font-size: 40px;
+    font-weight: 700;
+    color: orangered;
+
+}
+#sp_tagline2{
+    font-size: 13px;
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+#contact2 h6 a{
+
+ text-decoration: none;
+ color: white;
+ font-size: 10px;
+}
+#navql{
+    padding-top: 30px;
+    display: flex;
+   
+}
+
+@media (max-width:1090px) {
+   #logo1{
+    width: 200px;
+    position: absolute;
+    top: 20vh;
+    left: 50%;
+    transform: translate(-50%);
+   }
+   #sp_intro_details{
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    transform: translate(-50%);
+   }
+    #sp_name{
+        font-size: 40px;
+        text-align: center;
+    }
+    #sp_tagline{
+        font-size: 13px;
+        text-align: center;
+    }
+    .contact_sp{
+        display: block;
+        margin-left: 25px;
+    }
+    
+        #sp_name2{
+            font-size: 20px;
+            text-align: center;
+        }
+        #sp_tagline2{
+            font-size: 8px;
+            text-align: center;
+        }
+   
+}
+@media (max-width:880px) {
+   .intro{
+    height: 100vh;
+   } 
+    #name{
+        margin: 10px;
+    }
+    #nav1{
+        display: none;
+        z-index: -1;
+    }
+    #nav2{
+
+        position: fixed;
+        top: 0px;
+        right: -50vw;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        background-color: rgba(255, 255, 255, 0.650);
+        padding: 10px; 
+        height: 100vh;
+        width: 40vw;
+        z-index: 2;
+
+    }
+    #nav_toggle{
+        display: block;
+        margin: 10px;
+        position: absolute;
+        right: 20px;
+        scale: 1.5;
+        
+    }
+    #nav_toggle_2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        background-color: orangered;
+        width: 100%;
+        height: 30px;
+        padding: 5px;
+        padding-top: 5px;
+        font-size: 15px;
+        text-align: center;
+        
+    
+
+    }
+    .nav2{
+        
+        margin-left: 5px;
+        font-size: 15px;
+        text-align: left;
+        line-height: 50px;
+        background: transparent;
+        border: 0px;
+        color: rgb(0, 0, 0);
+        transition: color 0.3s ease-out,
+        scale 0.5s ease-out;
+
+    }
+    .nav2:hover{
+        color: orangered;
+        scale: 1.1;
+    
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    #about_gif{
+        margin: 10px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 80vw;
+        padding: 10px;
+    }
+    #about_para{
+        position: relative;
+        top: -60px;
+        left: 50%;
+        transform: translate(-50%);
+        scale: 1.2;
+
+    }
+    .associates{
+        display: flex;
+        flex-direction: column-reverse;
+        height: fit-content;
+
+    }
+    #sfclogo1{
+        display: flex;
+        margin: 10px;
+        position: relative;
+        top: 25%;
+        left: 50%;
+        transform: translate(-55%);
+
+    }
+    #sfc_details{
+        position: relative;
+        width: 80vw;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #sfc_name{
+        text-align: center;
+    }
+    #sfc_para{
+        text-align: center;
+    }
+    #contact_sfc{
+        padding-left: 15vw;
+        text-align: left;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    #navql{
+        flex-direction: column;
+    
+    }
+
+}
+
+@media (max-width:800px) {
+
+    .serv_1{
+        flex-direction: column;
+    }
+    .serv_2{
+        flex-direction: column;
+    }
+}
+@media (max-width:730px) {
+    .associates_2{
+        flex-direction: column;
+
+    }
+    .about{
+        height: 100vh;
+    }
+
+    #pa_1{
+     margin: 0;
+     padding: 5px;
+     margin-top: 20vh;
+     text-align: center; 
+     font-size: 15px;
+     height: auto;
+     width: 70vw;
+    }
+
+    .about_text{
+        margin: 5px;
+        font-size: 13px;
+    }
+    #about_para{
+        margin: 0;
+      position: relative;
+      left:55%;
+      transform: translate(-50%);
+      width: 70vw;
+      
+    }
+    #contact .a1{
+     text-decoration:none ;
+     color: white;
+     font-size: 13px;
+    }
+
+
+}
+@media (max-width: 600px) {
+    
+    #nav_toggle{
+        margin: 20px;
+    }
+    #name{
+        font-size: 18px;
+    }
+    #logo1{
+        width: 200px;
+        position: absolute; 
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+    #sp_intro_details{
+        
+        width: 300px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        height: 25vh;
+        line-height: 30px;
+        
+    
+    }
+    #sp_name{
+        font-size: 2em;
+        
+    }
+    #sp_tagline{
+        font-size: 0.7em;
+        
+    }
+    .about{
+        height: fit-content;
+    }
+
+    #pa_1{
+        font-size: 18px;
+    }
+    .about{
+        backdrop-filter: blur(50px);
+    }
+    .about_text{
+        font-size: 18px;
+
+    }
+    #sfc_name{
+        font-size: 25px;
+    }
+    #right{
+        margin: 5px;
+        font-size: 15px;
+    }
+    .nav1{
+        margin: 0;
+        font-size: 10px;
+    }
+    #navql{
+        padding-top:85px ;
+    }
+    .contact_sp2{
+        padding-left: 50px;
+    }
+
+
+}
+@media (max-width:430px) {
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    #name{
+        font-size: 15px;
+    }
+    #nav_toggle{
+        margin: 10px;
+    }
+    #logo1{
+        width: 130px;
+        position: absolute;
+        left: 50%;
+    }
+    #contact .a1{
+        font-size: 10px;
+        position: relative;
+        left: 15px;
+    }
+    #about_gif{
+        margin-left: 0;
+    }
+    #pa_1{
+        margin-top: 110px;
+        font-size:13px ;
+        text-align: left;
+    }
+    .about_text{
+        font-size: 12px;
+    }
+    #sfclogo1{
+        width: 150px;
+    }
+    #sfc_name{
+        font-size: 18px;
+        #text1{
+            font-size: 15px;
+        }
+}
+    #sfc_para{
+        text-align: left;
+        font-size: 13px;
+    }
+   #contact_sfc{
+     padding: 0;
+   }
+  .contact_sfc a{
+   font-size: 10px;
+   
+   }
+   
+   #sp_intro_details2{
+    line-height: 15px;
+    width: fit-content;
+    
+   }
+   #contact2{
+    padding-left:10px;
+   }
+   
+
+    footer{
+        height: fit-content;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+    }
+    #navql{
+        padding-top:20px ;
+    }
+
+    #right{
+        margin: 5px;
+        margin-top: 10px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:299px) {
+    html{
+        display: none;
+    }
+}
+    
+
+
+
+
+
