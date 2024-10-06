@@ -652,7 +652,7 @@ footer{
         margin: 10px;
     }
     #logo1{
-        width: 150px;
+        width: 200px;
         position: absolute;
         left: 50%;
     }
@@ -694,7 +694,7 @@ footer{
    }
    
    #sp_intro_details2{
-    line-height: 15px;
+    line-height: 30px;
     width: fit-content;
     
    }
